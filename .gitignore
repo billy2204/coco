@@ -1,0 +1,18 @@
+# môi trường
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# dữ liệu (lớn, tải lại được từ Mendeley hoặc thu tại chỗ)
+data/raw/
+data/processed/
+!data/raw/mendeley/README.md
+
+# model đã train (giữ lại .tflite nếu muốn, bỏ comment dòng dưới)
+models/*.h5
+models/*.keras
+models/*.joblib
+models/*.png
+# models/*.tflite
